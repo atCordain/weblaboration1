@@ -1,25 +1,51 @@
+body
+{
+	display: grid;
+	color: rgb(66, 66, 66);
+	font-family: Coolvetica_b,Helvetica,sans-serif;
+}
+
 img	
 {
 	width: 30%;
+	height: auto;
 	display: inline;
 	border-radius: 50%;
+	vertical-align: middle;
 	float: left;
-}
-
-span
-{
-	width: auto;
-	display: inline-block;
-	float: left;
-	border: 2% solid gray;
 }
 
 div
 {
-	clear: both;
+	margin: 5px;
+	padding: 5px;
+	width: 100%;
+	float: left;
 }
 
-.inline
+h1 
 {
-	display: inline;
+	padding: 0px;
+	padding-top: 10%;
+	margin: 0px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.borderless
+{
+	border: none;
+}
+.flashCard
+{
+	background-color: #EDF6FF;
+	width:auto;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.floatfix
+{
+	clear: both;
 }
