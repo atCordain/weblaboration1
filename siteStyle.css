@@ -1,0 +1,25 @@
+img	
+{
+	width: 30%;
+	display: inline;
+	border-radius: 50%;
+	float: left;
+}
+
+span
+{
+	width: auto;
+	display: inline-block;
+	float: left;
+	border: 2% solid gray;
+}
+
+div
+{
+	clear: both;
+}
+
+.inline
+{
+	display: inline;
+}
