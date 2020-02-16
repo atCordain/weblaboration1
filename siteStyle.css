@@ -32,6 +32,13 @@ h1
 	display: inline-block;
 }
 
+p
+{
+	padding: 0px;
+	width: auto;
+	text-align: left;
+}
+
 .borderless
 {
 	border: none;
@@ -43,8 +50,13 @@ h1
 	vertical-align: middle;
 	text-align: center;
 	border-radius: 30px;
+	max-width: 400px;
 }
 
+.flashCardImage
+{
+	max-width: 50px;
+}
 .floatfix
 {
 	clear: both;
