@@ -1,66 +1,91 @@
 body
 {
-	display: grid;
 	color: rgb(66, 66, 66);
 	font-family: Coolvetica_b,Helvetica,sans-serif;
 }
 
-img	
+.topBox
 {
-	width: 30%;
-	margin-right: 10px;
-	height: auto;
-	display: inline;
-	border-radius: 50%;
-	vertical-align: middle;
-	float: left;
-}
-
-div
-{
-	margin: 5px;
-	padding: 5px;
 	width: 100%;
+	height: auto;
+	border: none;
+	display: inline-block;
+	background-color: #EDF6FF;
+	border-radius: 30px;
+}
+
+#topBoxImage
+{
+	float:left;
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 50%;
+	margin: 1%;
+	margin-left:2%;
+}
+
+#topBoxText
+{
 	float: left;
 }
 
-h1 
+#topBoxText h1
 {
-	padding: 0px;
-	padding-top: 10%;
-	margin: 0px;
+	padding-left: 1%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	padding-right: 0%
+	border: 0px;
+}
+
+#topBoxText em
+{
+	padding-left: 1%;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	padding-right: 0%
+	border: 0px;
+}
+
+.parent
+{
+	width: 100%;
+	height: auto;
+	border: none;
 	display: inline-block;
 }
 
-h2 
-{
-	margin-left: 10px;
-}
-
-p
-{
-	padding: 0px;
-	width: auto;
-	text-align: left;
-}
-
-.borderless
-{
-	border: none;
-}
 .flashCard
 {
 	background-color: #EDF6FF;
-	width: 40%;
-	min-width: 400px;
+	width: 49%;
+	min-width: 450px;
 	border-radius: 30px;
+	margin-top: 1%;
+	margin-left: 1%;
+	float: left;
+}
+
+.flashCard h2
+{
+	margin-left: 5%;
 }
 
 .flashCardImage
 {
+	margin-left: 5%;
 	max-width: 50px;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin-bottom: 5%;
+	margin-top: 5%;
 }
-.floatfix
+
+.flashCard p
 {
-	clear: both;
+	font-size: 1em;
+	font-size-adjust: auto;
+	padding-top: 0%;
+	margin-top: 0%;
+	display: inline-block;
 }
